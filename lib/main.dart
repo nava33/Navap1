@@ -22,7 +22,7 @@ class MiPaginaInicial extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         AppBar :AppBar(
-             title: Text('Barra flotante de Navita'),
+             
         ),
     )
   } // fin de widgets
