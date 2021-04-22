@@ -21,8 +21,8 @@ class MiPaginaInicial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        AppBar: AppBar(
-             
+        appBar: AppBar(
+          title: Text('color del appbar'),
         ),
     )
   } // fin de widgets
