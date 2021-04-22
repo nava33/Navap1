@@ -10,7 +10,7 @@ class NavaApp extends StatelessWidget {
       // Application name
       title: 'Flutter Stateful Clicker Counter',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primary: Colors.green,
       ),
       home: MiPaginaInicial(),
     ); // fin materialapp
