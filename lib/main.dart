@@ -10,11 +10,19 @@ class NavaApp extends StatelessWidget {
       // Application name
       title: 'Flutter Stateful Clicker Counter',
       theme: ThemeData(
-        // Application theme data, you can set the colors for the application as
-        // you want
+       
         primarySwatch: Colors.red,
       ),
-      //home: MyHomePage(title: 'Flutter Demo nava Clicker Counter Home Page'),
+      home: MiPaginaInicial(title: 'Flutter Demo nava Clicker Counter Home Page'),
     ); // fin materialapp
   } // fin de widgets
 } // fin de mi aplicacion
+
+class MiPaginaInicial extends class MyStatelessWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(color: Colors.red);
+      
+    );
+  }
+}
