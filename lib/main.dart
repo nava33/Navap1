@@ -21,7 +21,7 @@ class MiPaginaInicial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        AppBar :AppBar(
+        AppBar: AppBar(
              
         ),
     )
