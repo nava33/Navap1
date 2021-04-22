@@ -10,7 +10,6 @@ class NavaApp extends StatelessWidget {
       // Application name
       title: 'Flutter Stateful Clicker Counter',
       theme: ThemeData(
-       
         primarySwatch: Colors.red,
       ),
       home: MiPaginaInicial(),
@@ -18,11 +17,13 @@ class NavaApp extends StatelessWidget {
   } // fin de widgets
 } // fin de mi aplicacion
 
-class MiPaginaInicial extends  StatelessWidget {
+class MiPaginaInicial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(color: Colors.color: , );
-      
-    
-  }// fin de widgets
-}// fin MiPaginaInicial
+    return Scaffold(
+        AppBar :AppBar(
+             title: Text('Barra flotante de Navita'),
+        )
+    )
+  } // fin de widgets
+} // fin MiPaginaInicial
