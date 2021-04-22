@@ -23,6 +23,6 @@ class MiPaginaInicial extends  StatelessWidget {
   Widget build(BuildContext context) {
     return Container(color: Colors.color: , );
       
-    );
-  }
+    
+  }// fin de widgets
 }// fin MiPaginaInicial
