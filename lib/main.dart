@@ -13,7 +13,7 @@ class NavaApp extends StatelessWidget {
        
         primarySwatch: Colors.red,
       ),
-      home: MiPaginaInicial(title: 'Flutter Demo nava Clicker Counter Home Page'),
+      home: MiPaginaInicial(),
     ); // fin materialapp
   } // fin de widgets
 } // fin de mi aplicacion
@@ -21,7 +21,7 @@ class NavaApp extends StatelessWidget {
 class MiPaginaInicial extends  StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(color: Colors.pink);
+    return Container(color: Colors.color: , );
       
     );
   }
