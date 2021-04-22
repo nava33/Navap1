@@ -18,11 +18,11 @@ class NavaApp extends StatelessWidget {
   } // fin de widgets
 } // fin de mi aplicacion
 
-class MiPaginaInicial extends class MyStatelessWidget extends StatelessWidget {
+class MiPaginaInicial extends  StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(color: Colors.red);
       
     );
   }
-}
+}// fin MiPaginaInicial
